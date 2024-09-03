@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const dotenv = require("dotenv");
-const rateLimitingMiddleware = require("./RateLimiting"); // Import the rate limiting middleware
+const rateLimitingMiddleware = require("./middlewares/RateLimiting"); // Import the rate limiting middleware
 
 dotenv.config();
 
