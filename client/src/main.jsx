@@ -11,7 +11,7 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <PrivyProvider
-        appId="cm03yi7zl02fele5dgq4hg63k"
+        appId="cm1jg8rnp00pikraejaeu45e2"
         config={{
           // Display email and wallet as login methods
           loginMethods: ["email", "wallet", "sms", "google", "github", "apple"],
@@ -19,7 +19,7 @@ root.render(
           appearance: {
             theme: "light",
             accentColor: "#676FFF",
-            logo: "https://res.cloudinary.com/tweneboah/image/upload/v1724251495/Masynctech_Logo_3_rzmg8h.png",
+            // logo: "https://res.cloudinary.com/tweneboah/image/upload/v1724251495/Masynctech_Logo_3_rzmg8h.png",
           },
           // Create embedded wallets for users who don't have a wallet
           embeddedWallets: {
