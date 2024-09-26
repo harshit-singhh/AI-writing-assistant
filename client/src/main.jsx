@@ -14,7 +14,7 @@ root.render(
         appId="cm1jg8rnp00pikraejaeu45e2"
         config={{
           // Display email and wallet as login methods
-          loginMethods: ["email", "wallet", "sms", "google", "github", "apple"],
+          loginMethods: ["email", "sms", "google", "github"],
           // Customize Privy's appearance in your app
           appearance: {
             theme: "light",
